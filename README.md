@@ -1,11 +1,14 @@
 # HCL Canvas Mandelbrot Explorer #
 
+I've written a mandelbrot set explorer for the HTML5 canvas in [Hot Cocoa Lisp](https://github.com/olleicua/hcl)
+
 ## Setup ##
 
 ### To use the explorer ###
 
 1. `git clone git@github.com:olleicua/hcl-canvas-mandelbrot.git`
 2. open hcl-canvas-mandelbrot/mandelbrot.html in a web browser
+3. use `w`, `a`, `s`, and `d` to move around, `q` to zoom in, and `e` to zoom out
 
 ### For devs ###
 
