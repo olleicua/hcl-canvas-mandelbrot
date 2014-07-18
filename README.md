@@ -21,4 +21,6 @@ And compile:
 
 ## Screenshots ##
 
-...
+![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image1.png)
+
+![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image2.png)
