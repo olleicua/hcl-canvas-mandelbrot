@@ -22,12 +22,6 @@ And compile:
 
 1. `hcl -b mandelbrot.hcl`
 
-## Screenshots ##
-
-![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image1.png)
-
-![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image2.png)
-
 ## Optimizations ##
 
 I'm using two notable optimizations so far:
@@ -60,3 +54,9 @@ While zrsqr + zisqr < 4
 ### Check for periodic behaviour ###
 
 I used a technique described here (http://locklessinc.com/articles/mandelbrot/) to check whether the cycle of `z`s enters a loop and stop immediately if it does rather than continuing on to `maxIter`
+
+## Screenshots ##
+
+![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image1.png)
+![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image2.png)
+![alt tag](https://github.com/olleicua/hcl-canvas-mandelbrot/blob/master/image3.png)
