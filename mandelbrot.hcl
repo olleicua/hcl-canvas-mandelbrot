@@ -48,33 +48,33 @@
 
 (draw)
 
-(document.addEventListener "keyup"
-                           (# (e)
-                              (cond
-                               ((= e.keyCode 81) ; q
-                                (begin
-                                 (set* params.range 2/3)
-                                 (++ params.maxIter)
-                                 (draw)))
-                               ((= e.keyCode 87) ; w
-                                (begin
-                                 (set- params.i (/ params.range 3))
-                                 (draw)))
-                               ((= e.keyCode 69) ; e
-                                (begin
-                                 (set* params.range 3/2)
-                                 (-- params.maxIter)
-                                 (draw)))
-                               ((= e.keyCode 65) ; a
-                                (begin
-                                 (set- params.r (/ params.range 3))
-                                 (draw)))
-                               ((= e.keyCode 83) ; s
-                                (begin
-                                 (set+ params.i (/ params.range 3))
-                                 (draw)))
-                               ((= e.keyCode 68) ; d
-                                (begin
-                                 (set+ params.r (/ params.range 3))
-                                 (draw))))))
+(document.addEventListener
+ "keyup" (# (e)
+            (cond
+             ((= e.keyCode 81) ; q
+              (begin
+               (set* params.range 2/3)
+               (++ params.maxIter)
+               (draw)))
+             ((= e.keyCode 87) ; w
+              (begin
+               (set- params.i (/ params.range 3))
+               (draw)))
+             ((= e.keyCode 69) ; e
+              (begin
+               (set* params.range 3/2)
+               (-- params.maxIter)
+               (draw)))
+             ((= e.keyCode 65) ; a
+              (begin
+               (set- params.r (/ params.range 3))
+               (draw)))
+             ((= e.keyCode 83) ; s
+              (begin
+               (set+ params.i (/ params.range 3))
+               (draw)))
+             ((= e.keyCode 68) ; d
+              (begin
+               (set+ params.r (/ params.range 3))
+               (draw))))))
 

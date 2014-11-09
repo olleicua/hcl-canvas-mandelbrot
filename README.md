@@ -36,7 +36,7 @@ While (zr * zr) + (zi * zi) < 4
   zi = (2 * zr * zi) + ci
 ```
 
-Multiplication is expensive and there are six of them here.  Instead I used an optimization I ffound here: http://randomascii.wordpress.com/2011/08/13/faster-fractals-through-algebra/
+Multiplication is expensive and there are six of them here.  Instead I used an optimization I found here: http://randomascii.wordpress.com/2011/08/13/faster-fractals-through-algebra/
 
 ```
 zrsqr = zr * zr;
